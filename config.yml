@@ -1,0 +1,24 @@
+<changed_file file_path="config.yml">
+---
++++
+@@ -1,5 +1,6 @@
+ # Existing configuration options...
+ 
++# Specify the correct front matter format for the INSTALL file
+ front_matter_format: yaml
+ 
+ # Existing configuration options...
+</changed_file>
+
+<changed_file file_path="Gemfile">
+---
++++
+@@ -1,5 +1,7 @@
+ # Existing Gemfile contents...
+ 
++# Add gems for parsing YAML and front matter
+ gem 'yaml'
+ gem 'front_matter'
+ 
+ # Existing Gemfile contents...
+</changed_file>
