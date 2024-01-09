@@ -1,0 +1,6 @@
+# Existing Dockerfile contents...
+
+# Add a new step to copy the INSTALL file
+COPY INSTALL /path/to/destination
+
+# Existing Dockerfile contents...
